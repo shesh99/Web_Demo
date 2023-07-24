@@ -6,3 +6,46 @@
     padding-right: 35px;
     background-color:rgb(164, 103, 221);
     color: white;}
+
+
+.box32{
+    width: 30%;
+    height: 30%;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    float: left;
+}
+
+.button{
+    width: 30%;
+    height: 30%;
+    background-color: blue;
+    
+}
+
+
+@media screen and (max-width: 425px) { 
+    .box32{
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        float: left;
+    }
+
+    
+}
+
+
+.main{
+    display: flex;
+}
+
+
+
+
+
+
+
+
